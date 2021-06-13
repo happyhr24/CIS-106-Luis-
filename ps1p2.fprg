@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="playa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-13 06:06:43 PM"/>
+        <attribute name="created" value="cGxheWE7REVTS1RPUC02REVRRFROOzIwMjEtMDYtMTM7MDU6MTc6NTIgUE07Mjg5OQ=="/>
+        <attribute name="edited" value="cGxheWE7REVTS1RPUC02REVRRFROOzIwMjEtMDYtMTM7MDY6MDY6NDMgUE07MTszMDA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="garcia" type="Real" array="False" size=""/>
+            <declare name="score1" type="Real" array="False" size=""/>
+            <declare name="score2" type="Real" array="False" size=""/>
+            <input variable="garcia"/>
+            <input variable="score1"/>
+            <input variable="score2"/>
+            <assign variable="avg" expression="score1 + score2/2"/>
+            <output expression="&quot;last_name&quot;" newline="True"/>
+            <output expression="&quot;avg_score&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
